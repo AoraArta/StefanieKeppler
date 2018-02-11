@@ -1,25 +1,118 @@
-.footer-container{
-    background-color: #122345;
-    height: 25vh;
-}
-
-.footer-container a,p{
-    color: $white;
-}
-
-.footer{
-    background-color: $medium-gray;
+/*  NAME  */
+.name-container{
+    background-color: $white;
 }
 
 .name{
     background-color: $white;
+    height: 5vh;
+    margin-left: 1.5vw;
+}
+
+/*  NAME SMALL  */
+@media screen and (max-width: 39.9375em) {
+    .name{
+        height: 9vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
 }
 
 .name a{
     color: $medium-gray;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
-.footer-bottom{
+
+
+
+/*  NAVIGATION  */
+.navigation-container{
+    background-color: $medium-gray;
+}
+
+.navigation{
+    background-color: $medium-gray;
+    height: 20vh;
+    padding-top: 1vh;
+    margin-left: 1.5vw;
+}
+
+.navigation a{
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.navigation a:hover{
+    color: $light-gray;
+    font-weight: bold;
+}
+
+/*  NAVIGATION SMALL  */
+@media screen and (max-width: 39.9375em) {
+    .navigation{
+        height: 18vh;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .navigation a{
+        line-height: 2.15;
+    }
+}
+
+.nav-active a{
+    color: $light-gray;
+    font-weight: bold;
+}
+
+.nav-active a:hover{
+    color: $light-gray;
+}
+
+
+
+
+/*  FOOTER  */
+.footer-container{
+    background-color: $dark-gray;
+    padding-right: 1.5vw;
+}
+
+.footer{
     background-color: $dark-gray;
     height: 5vh;
+    padding-top: 1.25vh;
 }
+
+.footer a,p{
+    color: $white;
+    text-align: right;
+}
+
+.footer a:hover {
+    color: $light-gray;
+}
+
+/*  FOOTER SMALL  */
+@media screen and (max-width: 39.9375em) {
+    .footer{
+        height: 7vh;
+        padding-top: 1.25vh;
+    }
+}
+
+
+@media screen and (max-width: 39.9375em) {
+    .footer a,p{
+        text-align: center;
+    }
+}
+
+
