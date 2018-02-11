@@ -2,7 +2,9 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import 'Navigation';
+@import 'content';
+@import 'navigation';
+
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -60,6 +62,7 @@
   
 a{
     text-decoration: none;
+    
   }
   
 li{

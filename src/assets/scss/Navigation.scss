@@ -1,28 +1,25 @@
-.Footer-Black{
-    background-color: $dark-gray;
-    height: 300px;
+.footer-container{
+    background-color: #122345;
+    height: 25vh;
 }
 
-.Footer-White{
+.footer-container a,p{
+    color: $white;
+}
+
+.footer{
+    background-color: $medium-gray;
+}
+
+.name{
     background-color: $white;
 }
 
-.Nav-Item{
-    text-transform: uppercase;
-    color: $white;
-    font-size: 1.2rem;
+.name a{
+    color: $medium-gray;
 }
 
-.Nav-Item:hover {
-    color: $white;
+.footer-bottom{
+    background-color: $dark-gray;
+    height: 5vh;
 }
-
-.Nav-Item-Active{
-    text-transform: uppercase;
-    color: $dark-gray;
-}
-
-.Nav-Item-Headline:hover {
-    color: $dark-gray;
-}
-
